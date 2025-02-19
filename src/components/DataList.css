@@ -1,0 +1,87 @@
+body {
+  user-select: none;
+}
+
+.container {
+  font-family: Arial, sans-serif;
+  background: #f8f8f8;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 505px;
+}
+
+.event-section {
+  background: #515c72;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 10px;
+  min-width: 505px;
+}
+
+.match {
+  background: #f1f1f1;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-left: 5px solid transparent;
+  min-width: 500px;
+}
+
+.match-odds-away {
+  margin-left: 18px;
+}
+
+.match:nth-child(even) {
+  background: #f1f1f1;
+}
+
+.highlighted {
+  border-left: 5px solid red;
+}
+
+.teams span:first-child {
+  color: #ce1e00;
+  font-weight: bold;
+}
+.teams span:last-child {
+  color: #203958;
+}
+
+span.handicap {
+  margin-right: 10px;
+}
+
+.odds span {
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+.match-time {
+  font-size: 14px;
+  color: #515473;
+}
+
+.arrow {
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.game-count {
+  margin-left: 10px;
+  font-size: 0.9em;
+  color: #fff;
+}
+
+.arrow.up {
+  transform: rotate(360deg);
+}
